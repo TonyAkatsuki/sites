@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="Cache-Control" content="no-cache"/>
+        <meta http-equiv="Expires" content="0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    	<meta charset="utf-8"/> 
+	    <title></title>
+	    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"/>  
+	    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style type="text/css">
+            body {
+                background-image: url("/static/img/T_back.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .auto-style1 {
+                border-radius: 6px;
+                width: 219px;
+                height: 218px;
+            }
+            </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" >iMUST --- Student Information System</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a onclick="javascript:window.location.href='http://127.0.0.1:8000/S_News.html/?sid={{sid}}'"><span class="glyphicon glyphicon-user"></span> News</a></li>
+            <li><a onclick="javascript:window.location.href='http://127.0.0.1:8000/S_Time.html/?sid={{sid}}'"><span class="glyphicon glyphicon-user"></span> Time Table</a></li>
+            <li><a onclick="javascript:window.location.href='http://127.0.0.1:8000/S_Forumhome.html/?sid={{sid}}'"><span class="glyphicon glyphicon-comment"></span> Forum</a></li>
+
+          <li><a onclick="javascript:window.location.href='http://127.0.0.1:8000/Login.html/?sid={{sid}}'"><span class="glyphicon glyphicon-log-in"></span> Login out</a></li>
+        </ul>
+      </div>
+</nav>
+     <div class="text-center">
+         <img src="\static\school.png" class="auto-style1"/>
+       </div>
+        <div class="container">
+            <div class="jumbotron">
+            <h1 class="text-center">iMUST</h1>
+            <p class="text-center"><strong>Welcome to the Student Information System</strong><br />
+                Click on the navigation bar above to use the system.<br />
+            </p>
+       </div>
+    </div>
+
+    
+</body>
+</html>
